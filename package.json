@@ -1,0 +1,26 @@
+{
+  "name": "cinema",
+  "version": "1.0.0",
+  "description": "Cinema and customer services",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olgarithms/cinema.git"
+  },
+  "keywords": [
+    "cinema"
+  ],
+  "author": "Olga Matoula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olgarithms/cinema/issues"
+  },
+  "homepage": "https://github.com/olgarithms/cinema#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.17.1"
+  }
+}
