@@ -12,7 +12,4 @@ const eve = new Person("Eve");
 const customers = [olga, alice, bob, eve];
 
 customers.forEach(helpers.greet);
-cinema.sellTicket(olga);
-console.log(
-  `Here you, ${olga.name}! Your seat number is ${olga.assignedSeat}.`
-);
+cinema.serve(olga);

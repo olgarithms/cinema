@@ -18,6 +18,12 @@ class Cinema {
     this.seats[this.availableSeats[number]].giveSeat(person);
     this.availableSeats.splice(number, 1);
   }
+  serve(person) {
+    this.sellTicket(person);
+    console.log(
+      `Here you go, ${person.name}! Your seat number is ${person.assignedSeat}.`
+    );
+  }
 }
 
 module.exports = Cinema;
