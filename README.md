@@ -1,4 +1,4 @@
-# cinema
+# Cinema
 
 Book tickets!
 
