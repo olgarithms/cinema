@@ -4,6 +4,7 @@
   "description": "Cinema and customer services",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test.js"
   },
   "repository": {
